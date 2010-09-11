@@ -7,6 +7,10 @@ local viewing.
 
 ## Installing
 
+This script requires [Ruby](http://ruby-lang.org). You can install it for Linux
+or Windows from the above link, or use your OS's package manager to install it.
+Once it is installed, call the following command:
+
     $ [sudo] gem install trac-export-wiki
     
 ## Using
