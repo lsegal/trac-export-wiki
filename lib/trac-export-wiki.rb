@@ -126,7 +126,7 @@ module TracWiki
             <h1>#{config.wiki_title}</h1>
       eof
       config.categories.each do |line|
-        cat, name = *line
+        cat, name = *(Hash === line ? [line.keys.first, line.values.first] : line)
         index += "<h2>#{name}</h2>\n"
         index += "<ul>\n"
         config.pages.select {|k,v| k == cat }.each do |cat, docs|

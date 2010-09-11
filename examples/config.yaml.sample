@@ -43,12 +43,15 @@ pages:
     
 # The full titles and order of the category short-names. These titles will be 
 # listed in the order they are given on the index.html page.
+#
+# Note: Make sure to include the '-' before the short-name, since this has to
+#       be a list.
 categories:
-  mgmt: 'Management, Planning &amp; Risk Analysis Docs'
-  research: 'Research &amp; Potential Strategies Docs'
-  reqs: 'Requirements Docs'
-  design: 'Design &amp; Architecture'
-  test: 'Testing &amp; Implementation'
+  - mgmt: 'Management, Planning &amp; Risk Analysis Docs'
+  - research: 'Research &amp; Potential Strategies Docs'
+  - reqs: 'Requirements Docs'
+  - design: 'Design &amp; Architecture'
+  - test: 'Testing &amp; Implementation'
   
 # The wiki title listed on the index.html page
 wiki_title: JML4 Disco Documentation

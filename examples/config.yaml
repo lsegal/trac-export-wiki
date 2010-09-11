@@ -33,10 +33,10 @@ pages:
     - BoogieTraceability
     - PerformanceReport
 categories:
-  mgmt: 'Management, Planning &amp; Risk Analysis Docs'
-  research: 'Research &amp; Potential Strategies Docs'
-  reqs: 'Requirements Docs'
-  design: 'Design &amp; Architecture'
-  test: 'Testing &amp; Implementation'
+  - mgmt: 'Management, Planning &amp; Risk Analysis Docs'
+  - research: 'Research &amp; Potential Strategies Docs'
+  - reqs: 'Requirements Docs'
+  - design: 'Design &amp; Architecture'
+  - test: 'Testing &amp; Implementation'
 wiki_title: JML4 Disco Documentation
 wiki_title_prefix: Disco
