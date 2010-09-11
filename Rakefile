@@ -13,7 +13,7 @@ end
 
 desc "Installs the gem"
 task :install => :gem do 
-  sh "#{SUDO} gem install trac-export-wiki-1.0.0.gem --no-rdoc --no-ri"
+  sh "#{SUDO} gem install #{SPEC.full_name}.gem --no-rdoc --no-ri"
 end
 
 begin
