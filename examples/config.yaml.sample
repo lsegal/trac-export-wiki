@@ -1,0 +1,58 @@
+# The base URL to the trac page (excluding /wiki)
+base_url: http://example.com/trac/myproject
+
+# Optional authentication information, uncomment below.
+# You can also specify this information via the command-line (-u/-p).
+#username: username_here
+#password: password_here
+
+# The list of pages within separated categories
+# The category should be listed first, followed by a list of pages
+pages:
+  # Make sure to include the category short-name first
+  mgmt:
+    - BiWeeklyStatusReport
+    - Proposal
+    - ActivityPlan
+    - RiskManagement
+    - ProcessDocumentation
+    - ImpactAnalysis
+  research:
+    - CachingStrategies
+    - CachingEvaluation
+    - LoadBalancing
+    - PlanForDistributedReq
+    - ProversBenchmark
+    - ProfilingResults
+  reqs:
+    - VisionDocument
+    - SupplementarySpecification
+    - InstallationAndCommissioning
+    - Glossary
+  design:
+    - Jml4-LogicalView
+    - FirstPrototype
+    - Jml4Disco-LogicalView
+    - Jml4Disco-PhysicalView
+    - Jml4Disco-UseCaseView
+    - DevelopmentView
+  test:
+    - TestPlan
+    - BoogieTraceability
+    - PerformanceReport
+    
+# The full titles and order of the category short-names. These titles will be 
+# listed in the order they are given on the index.html page.
+categories:
+  mgmt: 'Management, Planning &amp; Risk Analysis Docs'
+  research: 'Research &amp; Potential Strategies Docs'
+  reqs: 'Requirements Docs'
+  design: 'Design &amp; Architecture'
+  test: 'Testing &amp; Implementation'
+  
+# The wiki title listed on the index.html page
+wiki_title: JML4 Disco Documentation
+
+# The wiki short title used in the <title> of individual wiki pages
+# in the form: "SHORT_TITLE - WIKI_PAGE_TITLE"
+wiki_title_prefix: Disco

@@ -1,0 +1,42 @@
+#username: username_here
+#password: password_here
+base_url: http://example.com/trac/soen490
+pages:
+  mgmt:
+    - BiWeeklyStatusReport
+    - Proposal
+    - ActivityPlan
+    - RiskManagement
+    - ProcessDocumentation
+    - ImpactAnalysis
+  research:
+    - CachingStrategies
+    - CachingEvaluation
+    - LoadBalancing
+    - PlanForDistributedReq
+    - ProversBenchmark
+    - ProfilingResults
+  reqs:
+    - VisionDocument
+    - SupplementarySpecification
+    - InstallationAndCommissioning
+    - Glossary
+  design:
+    - Jml4-LogicalView
+    - FirstPrototype
+    - Jml4Disco-LogicalView
+    - Jml4Disco-PhysicalView
+    - Jml4Disco-UseCaseView
+    - DevelopmentView
+  test:
+    - TestPlan
+    - BoogieTraceability
+    - PerformanceReport
+categories:
+  mgmt: 'Management, Planning &amp; Risk Analysis Docs'
+  research: 'Research &amp; Potential Strategies Docs'
+  reqs: 'Requirements Docs'
+  design: 'Design &amp; Architecture'
+  test: 'Testing &amp; Implementation'
+wiki_title: JML4 Disco Documentation
+wiki_title_prefix: Disco
